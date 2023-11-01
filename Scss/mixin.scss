@@ -1,0 +1,49 @@
+@mixin btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #f4f4f4;
+  border: 1px solid hsla(0deg, 0%, 61%, 0.7);
+  white-space: nowrap;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px;
+  outline: none;
+}
+
+@mixin btn--primary {
+  background: #f80;
+  color: white;
+  border: none;
+  &:hover {
+    background-color: #e56700;
+    border-color: #e56700;
+  }
+}
+
+@mixin container-section {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+@mixin item-card {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+@mixin grid {
+  flex: 0 0 calc(18.667% - 20px);
+  padding: 1px;
+}
+
+@mixin card {
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+
+@mixin h2 {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}

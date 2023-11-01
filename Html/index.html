@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayo</title>
+    <link rel="stylesheet" href="/Scss/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="header-item">
+                <div class="header-logo">
+                    <a href="./index.html">
+                        <img src="https://sayo.vn/img/logo-white.png" alt="sayo-logo">
+                    </a>
+                </div>
+                <div class="header-search">
+                    <form action="https://sayo.vn/mua-ban" class="search-form">
+                        <input placeholder="Tìm kiếm sản phẩm - Dịch vụ trên Sayo" autocomplete="off" />
+                        <button class="btn btn--primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path
+                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="header-information">
+                    <a class="btn btn--primary btn--large aw__b1358qut primary border-radius medium font-weight i-left aw__h1gb9yk"
+                        href="https://sayo.vn/dang-tin" rel="nofollow">Đăng tin</a>
+                    <div class="account-menu" onclick="click()">
+                        <div class="avatar">
+                            <img class="" src="https://sayo.vn/img/icon/default_user.png" alt="sayo">
+                            <span class="acc-span">Tài Khoản</span>
+                        </div>
+                        <div class="menu" id="menu" style="display: none;">
+                            <div class="menu-container">
+                                <span class="menu-sp1">
+                                    <img src="https://static.chotot.com/storage/marketplace/common/png/default_user.png"
+                                        alt="">
+                                </span>
+                                <span class="menu-sp2">
+                                    <a href="https://sayo.vn/login">Đăng Nhập / </a>
+                                    <a href="https://sayo.vn/register">Đăng Ký</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <ul class="nav">
+                    <li class="active">
+                        <a href="https://sayo.vn/mua-ban">DANH MỤC</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="https://sayo.vn/mua-ban/bds">Bất động sản</a>
+                            </li>
+                            <li>
+                                <a href="https://sayo.vn/mua-ban/do-gia-dung">Đồ gia dụng</a>
+                            </li>
+                            <li>
+                                <a href="https://sayo.vn/mua-ban/dich-vu">Dịch vụ</a>
+                            </li>
+                            <li>
+                                <a href="https://sayo.vn/mua-ban/khac">Khác</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://sayo.vn/tin-tuc/hotgirl">Hot girl</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <main>
+            <section>
+                <div class="container-section1">
+                    <div class="card">
+                        <h2>Khám phá danh mục</h2>
+                        <div class="item-card grid">
+                            <div>
+                                <a href="https://sayo.vn/mua-ban/bds">
+                                    <div class="card--category">
+                                        <img src="https://sayo.vn/img/icon/sayo-bds.webp" alt="bds">
+                                        <div class="title">Bất Động Sản</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://sayo.vn/mua-ban/do-gia-dung">
+                                    <div class="card--category">
+                                        <img src="https://sayo.vn/img/icon/sayo-do-gia-dung.webp" alt="dogiadung">
+                                        <div class="title">Đồ Gia Dụng</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://sayo.vn/mua-ban/dich-vu">
+                                    <div class="card--category">
+                                        <img src="https://sayo.vn/img/icon/sayo-dich-vu.webp" alt="dichvu">
+                                        <div class="title">Dịch Vụ</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://sayo.vn/mua-ban/khac">
+                                    <div class="card--category">
+                                        <img src="https://sayo.vn/img/icon/sayo-khac.webp" alt="khac">
+                                        <div class="title">Khác</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container-section2">
+                    <div class="card">
+                        <h2>Tin đăng dành cho bạn</h2>
+                        <div class="item-card grid">
+                            <div class="card card--product">
+                                <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm">
+                                    <div class="avatar">
+                                        <img src="https://sayo.vn/storage/uploads/2023-10-28/IMG20231027171620.jpg  "
+                                            alt="">
+                                    </div>
+                                </a>
+                                <div class="product--caption">
+                                    <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm"
+                                        class="card--title">Sen vòi</a>
+                                    <div>
+                                        <span class="card__price">10.000 đ</span>
+                                    </div>
+                                </div>
+                                <div class="card--footer text-small text-gray">
+                                    <img src="https://sayo.vn/img/icon/default_user.png" alt="" class="author-avatar">
+                                    <span>Thái Bình- 3 Ngày trước</span>
+                                </div>
+                            </div>
+                            <div class="card card--product">
+                                <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm">
+                                    <div class="avatar">
+                                        <img src="https://sayo.vn/storage/uploads/2023-10-28/IMG20231027171620.jpg  "
+                                            alt="">
+                                    </div>
+                                </a>
+                                <div class="product--caption">
+                                    <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm"
+                                        class="card--title">Sen vòi</a>
+                                    <div>
+                                        <span class="card__price">10.000 đ</span>
+                                    </div>
+                                </div>
+                                <div class="card--footer text-small text-gray">
+                                    <img src="https://sayo.vn/img/icon/default_user.png" alt="" class="author-avatar">
+                                    <span>Thái Bình- 3 Ngày trước</span>
+                                </div>
+                            </div>
+                            <div class="card card--product">
+                                <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm">
+                                    <div class="avatar">
+                                        <img src="https://sayo.vn/storage/uploads/2023-10-28/IMG20231027171620.jpg  "
+                                            alt="">
+                                    </div>
+                                </a>
+                                <div class="product--caption">
+                                    <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm"
+                                        class="card--title">Sen vòi</a>
+                                    <div>
+                                        <span class="card__price">10.000 đ</span>
+                                    </div>
+                                </div>
+                                <div class="card--footer text-small text-gray">
+                                    <img src="https://sayo.vn/img/icon/default_user.png" alt="" class="author-avatar">
+                                    <span>Thái Bình- 3 Ngày trước</span>
+                                </div>
+                            </div>
+                            <div class="card card--product">
+                                <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm">
+                                    <div class="avatar">
+                                        <img src="https://sayo.vn/storage/uploads/2023-10-28/IMG20231027171620.jpg  "
+                                            alt="">
+                                    </div>
+                                </a>
+                                <div class="product--caption">
+                                    <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm"
+                                        class="card--title">Sen vòi</a>
+                                    <div>
+                                        <span class="card__price">10.000 đ</span>
+                                    </div>
+                                </div>
+                                <div class="card--footer text-small text-gray">
+                                    <img src="https://sayo.vn/img/icon/default_user.png" alt="" class="author-avatar">
+                                    <span>Thái Bình- 3 Ngày trước</span>
+                                </div>
+                            </div>
+                            <div class="card card--product">
+                                <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm">
+                                    <div class="avatar">
+                                        <img src="https://sayo.vn/storage/uploads/2023-10-28/IMG20231027171620.jpg  "
+                                            alt="">
+                                    </div>
+                                </a>
+                                <div class="product--caption">
+                                    <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm"
+                                        class="card--title">Sen vòi</a>
+                                    <div>
+                                        <span class="card__price">10.000 đ</span>
+                                    </div>
+                                </div>
+                                <div class="card--footer text-small text-gray">
+                                    <img src="https://sayo.vn/img/icon/default_user.png" alt="" class="author-avatar">
+                                    <span>Thái Bình- 3 Ngày trước</span>
+                                </div>
+                            </div>
+                            <div class="card card--product">
+                                <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm">
+                                    <div class="avatar">
+                                        <img src="https://sayo.vn/storage/uploads/2023-10-28/IMG20231027171620.jpg  "
+                                            alt="">
+                                    </div>
+                                </a>
+                                <div class="product--caption">
+                                    <a href="https://sayo.vn/xem-tin-do-gia-dung/1698498385-37.htm"
+                                        class="card--title">Sen vòi</a>
+                                    <div>
+                                        <span class="card__price">10.000 đ</span>
+                                    </div>
+                                </div>
+                                <div class="card--footer text-small text-gray">
+                                    <img src="https://sayo.vn/img/icon/default_user.png" alt="" class="author-avatar">
+                                    <span>Thái Bình- 3 Ngày trước</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-10">
+                        <a href="https://sayo.vn/mua-ban" class="view-more">Xem Thêm</a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container-section3">
+                    <div class="card">
+                        <h2>Các từ khóa phổ biến</h2>
+
+                        <ul class="grid-3 gap-10">
+                            <li>
+                                <a href="#">Phòng trọ có gác xép</a>
+                            </li>
+                            <li>
+                                <a href="#">Phòng trọ dưới 3 triệu</a>
+                            </li>
+                            <li>
+                                <a href="#">Phòng trọ full đồ</a>
+                            </li>
+                            <li>
+                                <a href="#">Chung cư mini mỹ đình</a>
+                            </li>
+                            <li>
+                                <a href="#">Chung cư mini thanh xuân</a>
+                            </li>
+                            <li>
+                                <a href="#">mặt tiền kinh doanh</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </main>
+    <footer class="p-10">
+        <div class="d-flex">
+            <a href="https://sayo.vn/page/gioi-thieu.htm">Giới thiệu</a>
+            <span>.</span>
+            <a href="https://sayo.vn/page/gioi-thieu.htm">Quy chế hoạt động sàn</a>
+            <span>.</span>
+            <a href="https://sayo.vn/page/gioi-thieu.htm">Chính sách bảo mật</a>
+            <span>.</span>
+            <a href="https://sayo.vn/page/gioi-thieu.htm">Liên hệ hỗ trợ</a>
+        </div>
+    </footer>
+</body>
+
+</html>

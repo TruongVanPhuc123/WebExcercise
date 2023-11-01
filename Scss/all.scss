@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: whitesmoke;
+  color: #222;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  text-overflow: unset;
+  white-space: unset;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-width: 20px;
+  color: white;
+}
+
+button {
+  height: 28px;
+}
+
+ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  text-decoration: none;
+}
+
+main {
+  min-height: calc(100% - 142px);
+}
+
+section {
+  margin-bottom: 20px;
+}
